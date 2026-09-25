@@ -1,0 +1,205 @@
+# ============================================================
+
+# APKSentry — Android App Security Testing Tool
+
+# Git Ignore
+
+# ============================================================
+
+# -------------------------
+
+# Python
+
+# -------------------------
+
+**pycache**/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# -------------------------
+
+# Virtual Environment
+
+# -------------------------
+
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# -------------------------
+
+# Environment / Secrets
+
+# -------------------------
+
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.jks
+*.keystore
+
+# -------------------------
+
+# APK / Android Artifacts
+
+# -------------------------
+
+*.apk
+*.aab
+*.apks
+*.xapk
+*.obb
+
+# Decompiled / Extracted APKs
+
+apktool/
+decompiled/
+extracted/
+unpacked/
+smali/
+smali_classes*/
+jadx-output/
+jadx_out/
+
+# -------------------------
+
+# Security Reports
+
+# -------------------------
+
+reports/
+report/
+results/
+output/
+*.html
+*.json
+*.xml
+*.sarif
+
+# -------------------------
+
+# Logs
+
+# -------------------------
+
+logs/
+*.log
+*.trace
+
+# -------------------------
+
+# Temporary Files
+
+# -------------------------
+
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# -------------------------
+
+# OS Files
+
+# -------------------------
+
+# Windows
+
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# macOS
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+
+.directory
+.Trash-*
+
+# -------------------------
+
+# IDE / Editors
+
+# -------------------------
+
+.vscode/
+.idea/
+*.iml
+
+# -------------------------
+
+# Testing / Coverage
+
+# -------------------------
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# -------------------------
+
+# Build / Packaging
+
+# -------------------------
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# -------------------------
+
+# Local Tool Data
+
+# -------------------------
+
+.cache/
+.local/
+sessions/
+captures/
+
+# -------------------------
+
+# Backup / Debug Files
+
+# -------------------------
+
+debug/
+debug_output/
+crash_reports/
+
+# -------------------------
+
+# Personal / Local Files
+
+# -------------------------
+
+notes-private/
+local/
+*.local
+*.secret
+
+# Keep example configuration files
+
+!.env.example
+!.config.example
