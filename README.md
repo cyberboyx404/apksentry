@@ -129,7 +129,7 @@ For dynamic testing:
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/apksentry.git
+git clone https://github.com/cyberboyx404/apksentry.git
 cd apksentry
 ```
 
@@ -653,7 +653,7 @@ LICENSE
 
 # 👨‍💻 Author
 
-**CodeWithNisar**
+**cyberboyx404**
 
 Frontend Web Developer • Cybersecurity Learner • Tool Builder
 
